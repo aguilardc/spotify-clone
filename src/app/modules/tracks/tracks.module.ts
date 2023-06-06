@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import {TracksRoutingModule} from "@modules/tracks/tracks-routing.module";
 
-import { TracksRoutingModule } from './tracks-routing.module';
+
 
 
 @NgModule({
