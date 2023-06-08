@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-track-page',
@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./track-page.component.scss']
 })
 export class TrackPageComponent {
-
+  mockTrackList = [
+    {
+      name: 'Thunderstruck'
+    },
+    {
+      name: 'Thunderstruck'
+    },
+    {
+      name: 'Thunderstruck'
+    }
+  ]
 }

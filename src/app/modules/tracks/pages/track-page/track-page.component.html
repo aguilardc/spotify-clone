@@ -1,1 +1,12 @@
-<p>track-page works!</p>
+<div class="tracks-page">
+  <app-section-generic
+    [dataTracks]="mockTrackList"
+    [mode]="'small'"
+    [title]="'up'"
+  ></app-section-generic>
+  <app-section-generic
+    [dataTracks]="mockTrackList"
+    [mode]="'big'"
+    [title]="'down'"
+  ></app-section-generic>
+</div>
