@@ -5,7 +5,8 @@ import {TrackPageComponent} from "@modules/tracks/pages/track-page/track-page.co
 const routes: Routes = [
   {
     path: '',
-    component: TrackPageComponent
+    component: TrackPageComponent,
+    outlet: 'child'
   }
 ];
 

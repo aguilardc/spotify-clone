@@ -13,7 +13,9 @@ import {HeaderUserComponent} from "@shared/components/header-user/header-user.co
     HeaderUserComponent
   ],
   exports: [
-    SideBarComponent
+    SideBarComponent,
+    MediaPlayerComponent,
+    HeaderUserComponent
   ],
   imports: [
     CommonModule
