@@ -5,6 +5,8 @@ import {MediaPlayerComponent} from "@shared/components/media-player/media-player
 import {HeaderUserComponent} from "@shared/components/header-user/header-user.component";
 import { CardPlayerComponent } from './components/card-player/card-player.component';
 import { SectionGenericComponent } from './components/section-generic/section-generic.component';
+import { PlayListHeaderComponent } from './components/play-list-header/play-list-header.component';
+import { PlayListBodyComponent } from './components/play-list-body/play-list-body.component';
 
 
 
@@ -14,14 +16,18 @@ import { SectionGenericComponent } from './components/section-generic/section-ge
     MediaPlayerComponent,
     HeaderUserComponent,
     CardPlayerComponent,
-    SectionGenericComponent
+    SectionGenericComponent,
+    PlayListHeaderComponent,
+    PlayListBodyComponent
   ],
   exports: [
     SideBarComponent,
     MediaPlayerComponent,
     HeaderUserComponent,
     CardPlayerComponent,
-    SectionGenericComponent
+    SectionGenericComponent,
+    PlayListHeaderComponent,
+    PlayListBodyComponent
   ],
   imports: [
     CommonModule
