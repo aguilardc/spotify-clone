@@ -1,5 +1,6 @@
 import {Component, Input} from '@angular/core';
 import {TrackModel} from "@core/models/tracks.models";
+import {MultimediaService} from "@shared/services/multimedia.service";
 
 @Component({
   selector: 'app-card-player',
@@ -15,4 +16,11 @@ export class CardPlayerComponent {
     url: '',
     cover: ''
   };
+
+  constructor(private multimediaService: MultimediaService) {
+  }
+
+  sendPlay(track: TrackModel): void {
+    this.multimediaService.callback.emit(track);
+  }
 }
